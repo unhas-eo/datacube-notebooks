@@ -3,7 +3,7 @@
 # Create and configure a new virtual env to run WOfS within EASI
 
 venv=unhas
-venv_name="UNHAS2 Environment"
+venv_name="UNHAS Environment"
 venv_root=~/.venv
 script_dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 repos_dir=${script_dir}/../..
